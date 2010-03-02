@@ -1,0 +1,26 @@
+﻿The intention is to abstract steps of construction of objects 
+so that different implementations of these steps can construct 
+different representations of objects.
+
+
+
+Componente
+1. Director
+The Director class is responsible for managing the correct sequence of object
+ creation. It receives a Concrete Builder as a parameter 
+ and executes the necessary operations on it.
+
+2. Abstract Builder
+Abstract interface for creating objects (product).
+
+3. Concrete Builders
+Provide implementation for Builder. 
+Construct and assemble parts to build the objects.
+
+4. Product
+The final object that will be created by the Director using Builder..
+
+
+Ex: 
+1. Pizzza, PizzaBuilder, DiavoloPizzaBuilder, Cook(Director)
+2. Car, CarBuilder, OpelBuilder, Factory(Director)
