@@ -71,3 +71,6 @@ d.builder =  TestBuilder.new
 d.build_product
 
 puts d.product.name + '  '+d.product.definitie
+
+
+#end
